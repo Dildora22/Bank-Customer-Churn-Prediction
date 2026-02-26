@@ -2,7 +2,8 @@
 Predicting bank customer churn using Machine Learning models
 
 Overview:  
-Predict whether a bank customer will leave (churn) using machine learning. Helps the bank retain valuable customers.
+This project aims to predict whether a bank customer will leave (churn) or stay with the bank using machine learning techniques. 
+The goal is to help the bank take proactive actions to retain valuable customers.
 
 Dataset:  
 - Source: Kaggle  
@@ -22,7 +23,10 @@ Models Used:
 
 Evaluation:  
 - Accuracy, Confusion Matrix, ROC-AUC  
-- Best Model: XGBoost (Accuracy: 0.90, AUC: 0.93)  
+- Best Model: XGBoost (Accuracy: 0.90, AUC: 0.93)
+
+Hyperparameter Tuning:
+ - Used 'GridSearchCV' for optional parameters
 
 Notes:  
 - Ensemble methods performed best  
